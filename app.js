@@ -26,10 +26,13 @@ function play(pchoice) {
 
   if (randomPick == randomPick2) {
     alert("Draw");
+    // document.getElementById('result').innerHTML = 'DRAW!'
   } else if (randomPick > randomPick2) {
     alert("player 1 Wins");
+    // document.getElementById('randomPick').innerHTML = 'DRAW!'
   } else if (randomPick < randomPick2) {
     alert("player 2 wins");
+    // document.getElementById('randomPick2').innerHTML = 'DRAW!'
   }
 }
 
